@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WindowsFormsApplication1</RootNamespace>
     <AssemblyName>WindowsFormsApplication1</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,10 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HuongDan.cs">
+    <Compile Include="aloooo\HuongDan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HuongDan.Designer.cs">
+    <Compile Include="aloooo\HuongDan.Designer.cs">
       <DependentUpon>HuongDan.cs</DependentUpon>
     </Compile>
     <Compile Include="ThongTinHS.cs">
@@ -58,10 +59,10 @@
     <Compile Include="ThongTinHS.Designer.cs">
       <DependentUpon>ThongTinHS.cs</DependentUpon>
     </Compile>
-    <Compile Include="LichDay.cs">
+    <Compile Include="aloooo\LichDay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LichDay.Designer.cs">
+    <Compile Include="aloooo\LichDay.Designer.cs">
       <DependentUpon>LichDay.cs</DependentUpon>
     </Compile>
     <Compile Include="ThemGV.cs">
@@ -88,10 +89,10 @@
     <Compile Include="SuaHocSinh.Designer.cs">
       <DependentUpon>SuaHocSinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="aloooo\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="aloooo\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
@@ -108,13 +109,13 @@
     <Compile Include="ThemLichDay.Designer.cs">
       <DependentUpon>ThemLichDay.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="HuongDan.resx">
+    <EmbeddedResource Include="aloooo\HuongDan.resx">
       <DependentUpon>HuongDan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThongTinHS.resx">
       <DependentUpon>ThongTinHS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LichDay.resx">
+    <EmbeddedResource Include="aloooo\LichDay.resx">
       <DependentUpon>LichDay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SuaGiaoVien.resx">
@@ -123,7 +124,7 @@
     <EmbeddedResource Include="SuaHocSinh.resx">
       <DependentUpon>SuaHocSinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="aloooo\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
@@ -137,6 +138,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ThemGV.resx">
       <DependentUpon>ThemGV.cs</DependentUpon>
