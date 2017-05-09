@@ -24,7 +24,7 @@ namespace WindowsFormsApplication1
 
         private void SuaHocSinh_Load(object sender, EventArgs e)
         {
-            
+            cccccccccccccccccccccc
         }
         private void btSua_Click(object sender, EventArgs e)
         {
