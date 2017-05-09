@@ -38,8 +38,13 @@ namespace WindowsFormsApplication1
 
             lllllllllllllllllllllllllllllllllllllll
                 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+<<<<<<< HEAD
+                mnnnnnnnnnnnnnnnnnnnnnnnnnnn
+=======
                 o
+>>>>>>> refs/remotes/origin/master
             //v vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+            hhhhhhhhhhhhhhhhhhhhhhhhhhh
         }
     }
 }
